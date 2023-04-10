@@ -25,7 +25,7 @@ function relogio() {
         document.body.style.backgroundImage = "url(https://i.pinimg.com/originals/82/87/88/828788f79e9bb43152171f9ab58a7d0a.jpg)"
     }
 
-    else if (formatoHoras > -12 && formatoHoras < 18) {
+    else if (formatoHoras >= 12 && formatoHoras < 18) {
         document.body.style.backgroundImage = "url(https://media.tenor.com/wIa91mot0tAAAAAd/pixel-city-chill.gif)"
     }
 
